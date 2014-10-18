@@ -8,6 +8,7 @@ class DashBaseView(BaseView):
     """
     A base view class inherit by all dash views
     """
+    style_name = 'dash'
     dash_template_name='dash/dash_base.html'
 
     def get_context_data(self, **kwargs):
